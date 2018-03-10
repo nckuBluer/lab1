@@ -1,0 +1,74 @@
+命令稿啟動於 2018年03月10日 上午 10:45:08
+]0;~
+[32muser@DESKTOP-GRPQ3EU [33m~[0m
+$ whoaml:[K;pwd
+bash: whoaml：命令找不到
+/home/user
+]0;~
+[32muser@DESKTOP-GRPQ3EU [33m~[0m
+$ whoami:[K;pwd
+user
+/home/user
+]0;~
+[32muser@DESKTOP-GRPQ3EU [33m~[0m
+$ git config-i[K1[Kl
+git: 'config-l' is not a git command. See 'git --help'.
+]0;~
+[32muser@DESKTOP-GRPQ3EU [33m~[0m
+$ git config -1
+error: unknown switch `1'
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+
+]0;~
+[32muser@DESKTOP-GRPQ3EU [33m~[0m
+$ git config -l
+]0;~
+[32muser@DESKTOP-GRPQ3EU [33m~[0m
+$ git clone https://github.com/nckuBluer/lab1.git
+Cloning into 'lab1'...
+remote: Counting objects: 4, done.[K
+remote: Compressing objects:  33% (1/3)   [Kremote: Compressing objects:  66% (2/3)   [Kremote: Compressing objects: 100% (3/3)   [Kremote: Compressing objects: 100% (3/3), done.[K
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  25% (1/4)   Unpacking objects:  50% (2/4)   Unpacking objects:  75% (3/4)   Unpacking objects: 100% (4/4)   Unpacking objects: 100% (4/4), done.
+]0;~
+[32muser@DESKTOP-GRPQ3EU [33m~[0m
+$ exit
+
+命令稿已於 2018年03月10日 上午 10:49:28
+ 完成
