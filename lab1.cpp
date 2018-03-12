@@ -5,6 +5,7 @@ using namespace std;
 
 class Collatz{
 public:
+	//ask user to enter a postive number
 	void title(void)
 	{
 		cout << "Please enter a postive integer:" ;
@@ -31,6 +32,7 @@ public:
 		}
 	}
 
+	//error message
 	void warning(void){
 		cout << "The number can't be 0 or negative number " << endl;
 	}
@@ -51,7 +53,7 @@ int main(void)
 		cin >> number;
 	}
 
-	//call function
+	//call function to calculate
 	collatz.calculate(number);
 
 	return 0;

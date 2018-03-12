@@ -1,25 +1,0 @@
-命令稿啟動於 2018年03月11日 下午 05:09:04
-]0;~
-[32muser@DESKTOP-GRPQ3EU [33m~[0m
-$ whoami;pwd
-user
-/home/user
-]0;~
-[32muser@DESKTOP-GRPQ3EU [33m~[0m
-$ git config -l
-user.email=demons.secret5@gmail.com
-user.name=nckuBluer
-]0;~
-[32muser@DESKTOP-GRPQ3EU [33m~[0m
-$ git clone https://github.com/nckuBluer/lab1.git [K
-Cloning into 'lab1'...
-remote: Counting objects: 17, done.[K
-remote: Compressing objects:   6% (1/16)   [Kremote: Compressing objects:  12% (2/16)   [Kremote: Compressing objects:  18% (3/16)   [Kremote: Compressing objects:  25% (4/16)   [Kremote: Compressing objects:  31% (5/16)   [Kremote: Compressing objects:  37% (6/16)   [Kremote: Compressing objects:  43% (7/16)   [Kremote: Compressing objects:  50% (8/16)   [Kremote: Compressing objects:  56% (9/16)   [Kremote: Compressing objects:  62% (10/16)   [Kremote: Compressing objects:  68% (11/16)   [Kremote: Compressing objects:  75% (12/16)   [Kremote: Compressing objects:  81% (13/16)   [Kremote: Compressing objects:  87% (14/16)   [Kremote: Compressing objects:  93% (15/16)   [Kremote: Compressing objects: 100% (16/16)   [Kremote: Compressing objects: 100% (16/16), done.[K
-remote: Total 17 (delta 3), reused 0 (delta 0), pack-reused 0[K
-Unpacking objects:   5% (1/17)   Unpacking objects:  11% (2/17)   Unpacking objects:  17% (3/17)   Unpacking objects:  23% (4/17)   Unpacking objects:  29% (5/17)   Unpacking objects:  35% (6/17)   Unpacking objects:  41% (7/17)   Unpacking objects:  47% (8/17)   Unpacking objects:  52% (9/17)   Unpacking objects:  58% (10/17)   Unpacking objects:  64% (11/17)   Unpacking objects:  70% (12/17)   Unpacking objects:  76% (13/17)   Unpacking objects:  82% (14/17)   Unpacking objects:  88% (15/17)   Unpacking objects:  94% (16/17)   Unpacking objects: 100% (17/17)   Unpacking objects: 100% (17/17), done.
-]0;~
-[32muser@DESKTOP-GRPQ3EU [33m~[0m
-$ exit
-
-命令稿已於 2018年03月11日 下午 05:11:17
- 完成
