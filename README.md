@@ -13,6 +13,7 @@ if cin進來的number=1時，直接return 0並cout出end the program
 else 分做兩種情況
 
   if even(%2=0)，將number/2 並回傳number
+  
   else  (odd)，將number*3 + 1 並回傳number
   
 執行結束，return 0 到main function
